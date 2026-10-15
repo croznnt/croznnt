@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Animated Starry Night banner">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#0a1a3f"/>
+      <stop offset="45%" stop-color="#13306e"/>
+      <stop offset="80%" stop-color="#1b3b86"/>
+      <stop offset="100%" stop-color="#0d2552"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#ffe7a8" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ffd877" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffd877" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"  stop-color="#fff6d5" stop-opacity="1"/>
+      <stop offset="40%" stop-color="#ffe9a6" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffe9a6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="1.1"/></filter>
+
+    <style><![CDATA[
+      @keyframes twinkle {
+        0%,100% { opacity: .35; transform: scale(.8); }
+        50%     { opacity: 1;   transform: scale(1.15); }
+      }
+      @keyframes halo {
+        0%,100% { opacity: .55; transform: scale(1); }
+        50%     { opacity: .9;  transform: scale(1.08); }
+      }
+      @keyframes drift {
+        0%   { transform: translateX(0)   translateY(0); }
+        50%  { transform: translateX(-14px) translateY(4px); }
+        100% { transform: translateX(0)   translateY(0); }
+      }
+      @keyframes flow {
+        to { stroke-dashoffset: -600; }
+      }
+      @keyframes sway {
+        0%,100% { transform: rotate(-1.5deg); }
+        50%     { transform: rotate(1.5deg); }
+      }
+      .star  { transform-box: fill-box; transform-origin: center; animation: twinkle 3.2s ease-in-out infinite; }
+      .halo  { transform-box: fill-box; transform-origin: center; animation: halo 4.5s ease-in-out infinite; }
+      .swirls { animation: drift 16s ease-in-out infinite; }
+      .swirl  { stroke-dasharray: 22 16; animation: flow 9s linear infinite; }
+      .cypress { transform-box: fill-box; transform-origin: 120px 360px; animation: sway 7s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) {
+        .star,.halo,.swirls,.swirl,.cypress { animation: none; }
+      }
+    ]]></style>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="1200" height="360" fill="url(#sky)"/>
+
+  <!-- Swirling sky (Van Gogh style) -->
+  <g class="swirls" fill="none" stroke-linecap="round" opacity="0.55">
+    <path class="swirl" d="M60,150 C180,60 360,60 430,160 C500,260 360,320 300,250 C250,190 330,150 370,190"
+          stroke="#7fb3ff" stroke-width="3"/>
+    <path class="swirl" d="M520,120 C640,40 820,70 860,170 C900,270 760,300 720,230 C690,180 760,150 790,185"
+          stroke="#a9c7ff" stroke-width="2.6" style="animation-delay:-3s"/>
+    <path class="swirl" d="M150,250 C300,200 520,220 640,280 C760,340 520,360 440,320"
+          stroke="#5f93e6" stroke-width="2.2" style="animation-delay:-5s"/>
+    <path class="swirl" d="M880,250 C980,200 1100,220 1160,180"
+          stroke="#8fbaf5" stroke-width="2.2" style="animation-delay:-2s"/>
+  </g>
+
+  <!-- Moon with pulsing halo -->
+  <g transform="translate(1040,90)">
+    <circle class="halo" r="54" fill="url(#moonGlow)"/>
+    <circle r="24" fill="#ffe9a6"/>
+    <circle r="24" fill="#fff4cf" filter="url(#soft)" opacity="0.6"/>
+  </g>
+
+  <!-- Stars (glow + twinkle, staggered) -->
+  <g>
+    <g transform="translate(180,90)"><circle class="halo" r="26" fill="url(#starGlow)"/><circle class="star" r="5" fill="#fff6d5"/></g>
+    <g transform="translate(330,70)"><circle class="halo" r="20" fill="url(#starGlow)" style="animation-delay:-1.5s"/><circle class="star" r="4" fill="#fff6d5" style="animation-delay:-.6s"/></g>
+    <g transform="translate(470,110)"><circle class="halo" r="22" fill="url(#starGlow)" style="animation-delay:-2.2s"/><circle class="star" r="4.5" fill="#fff6d5" style="animation-delay:-1.2s"/></g>
+    <g transform="translate(610,70)"><circle class="halo" r="24" fill="url(#starGlow)" style="animation-delay:-3s"/><circle class="star" r="5" fill="#fff6d5" style="animation-delay:-1.8s"/></g>
+    <g transform="translate(760,120)"><circle class="halo" r="18" fill="url(#starGlow)" style="animation-delay:-1s"/><circle class="star" r="3.6" fill="#fff6d5" style="animation-delay:-2.4s"/></g>
+    <g transform="translate(880,70)"><circle class="halo" r="20" fill="url(#starGlow)" style="animation-delay:-2.6s"/><circle class="star" r="4" fill="#fff6d5" style="animation-delay:-.3s"/></g>
+    <g transform="translate(250,180)"><circle class="star" r="2.6" fill="#ffeeb0" style="animation-delay:-1.1s"/></g>
+    <g transform="translate(540,200)"><circle class="star" r="2.6" fill="#ffeeb0" style="animation-delay:-2.1s"/></g>
+    <g transform="translate(700,185)"><circle class="star" r="2.6" fill="#ffeeb0" style="animation-delay:-.8s"/></g>
+    <g transform="translate(960,180)"><circle class="star" r="2.6" fill="#ffeeb0" style="animation-delay:-1.7s"/></g>
+  </g>
+
+  <!-- Hills -->
+  <path d="M0,300 C200,270 400,320 650,295 C850,275 1050,315 1200,290 L1200,360 L0,360 Z" fill="#0a1733"/>
+  <path d="M0,330 C250,310 520,345 820,325 C1000,314 1120,335 1200,325 L1200,360 L0,360 Z" fill="#071022"/>
+
+  <!-- Village with church steeple -->
+  <g fill="#060d1f">
+    <rect x="470" y="305" width="36" height="35"/>
+    <rect x="512" y="312" width="30" height="28"/>
+    <rect x="548" y="300" width="26" height="40"/>
+    <polygon points="548,300 561,280 574,300"/>
+    <rect x="558" y="284" width="6" height="18"/>
+    <rect x="600" y="314" width="34" height="26"/>
+    <rect x="640" y="308" width="28" height="32"/>
+    <rect x="432" y="316" width="30" height="24"/>
+  </g>
+  <g fill="#ffd877" opacity="0.85">
+    <rect x="480" y="316" width="6" height="7"/>
+    <rect x="520" y="320" width="5" height="6"/>
+    <rect x="610" y="322" width="5" height="6"/>
+    <rect x="648" y="318" width="5" height="6"/>
+  </g>
+
+  <!-- Cypress tree (swaying) -->
+  <path class="cypress" d="M120,360 C96,300 150,270 118,210 C150,250 150,150 124,120
+        C150,170 158,230 142,300 C168,320 150,360 150,360 Z" fill="#0a1120"/>
+</svg>

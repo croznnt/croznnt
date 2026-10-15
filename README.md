@@ -1,5 +1,9 @@
 <!-- Profile README — hiển thị tại https://github.com/croznnt -->
 
+<p align="center">
+  <img src="assets/starry-night.svg" width="100%" alt="Starry Night banner" />
+</p>
+
 <h1 align="center">Hi there, I'm Ngoc-Truc Nguyen 👋</h1>
 <h3 align="center">Lecturer & Researcher · Ho Chi Minh City University of Transport</h3>
 <p align="center"><i>Marine & offshore engineering · Control systems · Industrial management</i></p>
@@ -58,7 +62,7 @@
 ### 🚀 Featured project
 
 <a href="https://github.com/croznnt/sample-project">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=croznnt&repo=sample-project&theme=default" alt="sample-project" />
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=croznnt&repo=sample-project&theme=tokyonight" alt="sample-project" />
 </a>
 
 > **Manufacturing KPI Dashboard** — a Streamlit app + sample dataset that computes and
@@ -71,8 +75,8 @@
 ### 📈 GitHub stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=croznnt&show_icons=true&count_private=true&hide_border=true&theme=default" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=croznnt&layout=compact&hide_border=true&theme=default" alt="top langs" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=croznnt&show_icons=true&count_private=true&hide_border=true&theme=tokyonight" alt="stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=croznnt&layout=compact&hide_border=true&theme=tokyonight" alt="top langs" />
 </p>
 
 ---
