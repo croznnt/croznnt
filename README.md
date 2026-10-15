@@ -30,11 +30,11 @@
 
 ### 🔬 Research interests
 
-![Marine Engineering](https://img.shields.io/badge/Marine%20%26%20Offshore-Engineering-0891b2?style=for-the-badge)
-![Control Systems](https://img.shields.io/badge/Control-Systems%20%26%20MPC-2563eb?style=for-the-badge)
-![Marine Automation](https://img.shields.io/badge/Marine-Automation%20%26%20Electrical-9333ea?style=for-the-badge)
-![Data Acquisition](https://img.shields.io/badge/Data-Acquisition%20Systems-d97706?style=for-the-badge)
-![Industrial Mgmt](https://img.shields.io/badge/Industrial-Management-16a34a?style=for-the-badge)
+🛳️ **Marine & offshore engineering** — dynamic positioning, offshore platforms  
+🎛️ **Control systems** — model predictive control (MPC), optimal & robust control  
+⚡ **Marine automation & electrical** — shipboard power, synchronous generators, AVR  
+📡 **Data acquisition & monitoring** of marine structures  
+🏭 **Industrial & operations management** — KPIs, OEE, Lean, quality
 
 **Selected research topics**
 - 🛳️ Model predictive control for **dynamic positioning of semi-submersible platforms** (with thruster constraints)
@@ -47,15 +47,20 @@
 
 ### 🛠️ Tools I research & teach with
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-![Simulink](https://img.shields.io/badge/Simulink-FF8C00?style=for-the-badge&logo=mathworks&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![LaTeX](https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+<p align="center">
+  <img title="Python" height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />&nbsp;&nbsp;
+  <img title="MATLAB" height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matlab/matlab-original.svg" />&nbsp;&nbsp;
+  <img title="NumPy" height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" />&nbsp;&nbsp;
+  <img title="Pandas" height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" />&nbsp;&nbsp;
+  <img title="Matplotlib" height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" />&nbsp;&nbsp;
+  <img title="Plotly" height="46" src="https://cdn.simpleicons.org/plotly/3F4F75" />&nbsp;&nbsp;
+  <img title="Streamlit" height="46" src="https://cdn.simpleicons.org/streamlit/FF4B4B" />&nbsp;&nbsp;
+  <img title="Jupyter" height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" />&nbsp;&nbsp;
+  <img title="LaTeX" height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" />&nbsp;&nbsp;
+  <img title="Git" height="52" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+</p>
+
+<p align="center"><sub>Python · MATLAB/Simulink · NumPy · Pandas · Matplotlib · Plotly · Streamlit · Jupyter · LaTeX · Git</sub></p>
 
 ---
 
