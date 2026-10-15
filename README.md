@@ -1,7 +1,12 @@
 <!-- Profile README — hiển thị tại https://github.com/croznnt -->
 
 <p align="center">
-  <img src="assets/starry-night.svg" width="100%" alt="Starry Night banner" />
+  <a href="https://croznnt.github.io/starry-night-flow/" title="Open the live animated Starry Night">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1280px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" width="100%" alt="The Starry Night — click to open the live animated version" />
+  </a>
+</p>
+<p align="center">
+  ▶ <b><a href="https://croznnt.github.io/starry-night-flow/">Open the live animated Starry Night</a></b> &nbsp;·&nbsp; interactive particle flow on HTML5 Canvas
 </p>
 
 <h1 align="center">Hi there, I'm Ngoc-Truc Nguyen 👋</h1>
