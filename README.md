@@ -1,7 +1,7 @@
 <!-- Profile README — hiển thị tại https://github.com/croznnt -->
 
 <p align="center">
-  <img src="assets/starry-night.gif" width="100%" alt="The Starry Night — animated brushstroke flow" />
+  <img src="assets/starry-night-anim.gif" width="100%" alt="The Starry Night — animated brushstroke flow" />
 </p>
 <p align="center"><sub>Vincent van Gogh · <i>The Starry Night</i> (1889, public domain) — animated brushstroke particle-flow</sub></p>
 
